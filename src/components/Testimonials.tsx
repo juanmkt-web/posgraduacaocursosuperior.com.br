@@ -8,26 +8,26 @@ const testimonials = [
   {
     id: 1,
     quote:
-      "O mercado industrial não tolera desperdícios. O curso me preparou para coordenar equipes e melhorar os processos produtivos, o que me rendeu uma posição de supervisão.",
-    name: "Anna Martins",
-    course: "Gestão de Produção Industrial",
-    photo: annaMartins,
+      "A Pós-Graduação foi fundamental para minha transição de carreira. O curso me entregou a base sólida necessária para atuar com segurança em um novo mercado.",
+    name: "Bernardo Campos",
+    course: "Pós em Data Science e Analytics",
+    photo: bernardoFoto,
   },
   {
     id: 2,
     quote:
-      "Ensinar exatas é um desafio constante. As novas metodologias que aprendi transformaram minhas aulas: hoje meus alunos entendem a lógica por trás das fórmulas e participam muito mais.",
-    name: "Aguinaldo Rosa",
-    course: "Metodologia do Ensino da Matemática e da Física",
-    photo: aguinaldoRosa,
+      "Em apenas 6 meses, apliquei o que aprendi e conquistei minha promoção. O conteúdo é 100% voltado para a prática do mercado. Recomendo muito!",
+    name: "Juliano Souza",
+    course: "MBA em Liderança e Gestão de Pessoas",
+    photo: julianoFoto,
   },
   {
     id: 3,
     quote:
-      "O Processo Penal exige precisão cirúrgica. A especialização aprofundou meu conhecimento sobre recursos e nulidades, me dando segurança total para atuar em audiências e no tribunal do júri.",
-    name: "Pablo Teixeira",
-    course: "Direito Processual Penal",
-    photo: pabloTeixeira,
+      "Mudar de área parecia impossível, mas a especialização em Psicopedagogia me deu a confiança técnica que faltava. Hoje vivo o meu sonho profissional e sou grata à Fasul por isso.",
+    name: "Gabriela Silva",
+    course: "Psicopedagogia Clínica e Institucional",
+    photo: gabrielaFoto,
   },
 ];
 
