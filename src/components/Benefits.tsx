@@ -20,7 +20,7 @@ const benefits = [{
 const Benefits = () => {
   return <section className="py-12 md:py-24 bg-white">
       <div className="container mx-auto px-4">
-        <div className="relative overflow-hidden rounded-2xl md:rounded-3xl shadow-2xl bg-[#1e2842]">
+        <div className="relative overflow-hidden rounded-2xl md:rounded-3xl shadow-2xl bg-main-gradient">
           
           <div className="px-4 py-8 md:px-8 md:py-16 relative z-10">
         <div className="grid lg:grid-cols-2 gap-6 md:gap-12 items-center">

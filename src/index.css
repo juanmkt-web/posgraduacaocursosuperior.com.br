@@ -148,9 +148,13 @@ All colors MUST be HSL.
     );
   }
   
-  /* Animated gradient background */
+  /* Animated gradient background - sky blue */
   .gradient-animated {
-    background: linear-gradient(135deg, hsl(var(--gradient-start)) 0%, hsl(var(--gradient-start)) 40%, hsl(var(--gradient-mid-2)) 65%, hsl(var(--gradient-mid)) 85%, hsl(var(--gradient-end)) 100%);
+    background: linear-gradient(135deg, 
+      hsl(var(--main-gradient-start)) 0%, 
+      hsl(var(--main-gradient-mid)) 50%, 
+      hsl(var(--main-gradient-end)) 100%
+    );
     background-size: 400% 400%;
     animation: gradientAnimation 8s ease infinite;
   }
