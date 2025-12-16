@@ -47,13 +47,13 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
     
-    /* Gradient colors - Blue palette */
-    --gradient-start: 220 60% 12%;
-    --gradient-mid: 210 70% 25%;
-    --gradient-mid-2: 200 65% 30%;
-    --gradient-end: 218 55% 18%;
-    --gradient-light-blue: 200 83% 55%;
-    --gradient-deep-blue: 225 75% 15%;
+    /* Gradient colors - Lighter Blue palette */
+    --gradient-start: 210 75% 40%;
+    --gradient-mid: 200 80% 50%;
+    --gradient-mid-2: 195 85% 55%;
+    --gradient-end: 205 80% 45%;
+    --gradient-light-blue: 195 90% 60%;
+    --gradient-deep-blue: 210 70% 35%;
     
     /* Main blue gradient - lighter blues */
     --main-gradient-start: 210 80% 35%;
