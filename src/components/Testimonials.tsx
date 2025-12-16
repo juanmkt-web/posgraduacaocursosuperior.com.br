@@ -1,7 +1,7 @@
 import { Quote } from "lucide-react";
-import annaMartins from "@/assets/anna-martins.png";
-import aguinaldoRosa from "@/assets/aguinaldo-rosa.png";
-import pabloTeixeira from "@/assets/pablo-teixeira.png";
+import bernardoFoto from "@/assets/bernardo.png";
+import julianoFoto from "@/assets/juliano.png";
+import gabrielaFoto from "@/assets/gabriela.png";
 import { useState, useEffect } from "react";
 
 const testimonials = [
