@@ -47,13 +47,18 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
     
-    /* Gradient colors - Dark blue with vibrant purple */
-    --gradient-start: 225 70% 18%;
-    --gradient-mid: 280 70% 45%;
-    --gradient-mid-2: 245 60% 35%;
-    --gradient-end: 220 65% 22%;
+    /* Gradient colors - Blue palette */
+    --gradient-start: 220 60% 12%;
+    --gradient-mid: 210 70% 25%;
+    --gradient-mid-2: 200 65% 30%;
+    --gradient-end: 218 55% 18%;
     --gradient-light-blue: 200 83% 55%;
     --gradient-deep-blue: 225 75% 15%;
+    
+    /* Main blue gradient */
+    --main-gradient-start: 220 55% 10%;
+    --main-gradient-mid: 215 60% 18%;
+    --main-gradient-end: 205 65% 25%;
     
     /* Shadows */
     --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
@@ -134,6 +139,15 @@ All colors MUST be HSL.
 }
 
 @layer utilities {
+  /* Main blue gradient background */
+  .bg-main-gradient {
+    background: linear-gradient(180deg, 
+      hsl(var(--main-gradient-start)) 0%, 
+      hsl(var(--main-gradient-mid)) 40%, 
+      hsl(var(--main-gradient-end)) 100%
+    );
+  }
+  
   /* Animated gradient background */
   .gradient-animated {
     background: linear-gradient(135deg, hsl(var(--gradient-start)) 0%, hsl(var(--gradient-start)) 40%, hsl(var(--gradient-mid-2)) 65%, hsl(var(--gradient-mid)) 85%, hsl(var(--gradient-end)) 100%);
