@@ -18,7 +18,7 @@ const benefits = [{
   highlight: "de TCC!"
 }];
 const Benefits = () => {
-  return <section className="pt-10 pb-12 md:pb-24 bg-white">
+  return <section className="pt-20 pb-12 md:pb-24 bg-white">
       <div className="container mx-auto px-4">
         <div className="relative overflow-hidden rounded-2xl md:rounded-3xl shadow-2xl bg-[#1e2842]">
           
