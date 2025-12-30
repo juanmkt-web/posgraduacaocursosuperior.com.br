@@ -55,10 +55,10 @@ All colors MUST be HSL.
     --gradient-light-blue: 195 90% 60%;
     --gradient-deep-blue: 210 70% 35%;
     
-    /* Main blue gradient - lighter blues */
-    --main-gradient-start: 210 80% 35%;
-    --main-gradient-mid: 200 85% 45%;
-    --main-gradient-end: 195 90% 55%;
+    /* Main blue gradient - lighter and more vibrant blues */
+    --main-gradient-start: 210 85% 45%;
+    --main-gradient-mid: 200 90% 55%;
+    --main-gradient-end: 195 95% 60%;
     
     /* Shadows */
     --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
